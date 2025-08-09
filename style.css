@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Win3;
+  src: url(win3.otf);
+}
+
+body {
+  color: #59d24e;
+  background-color: black;
+  margin: 64px;
+  font-family: Win3;
+  font-size: 30px;
+}
+
+a:link, a:active, a:visited {
+  color: #59d24e;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.text {
+      display: inline;
+      background-color: #59d24e;
+      color: black;
+      padding: 5px;
+}
+body .text {
+  color: black;
+}
+a .text {
+  color: black
+}
+.text a:link,
+.text a:visited,
+.text a:active {
+      color: black;
+}
+.text a:hover {
+      color: green;
+}
+.bottom-text {
+  position: fixed;
+  background-color: #59d24e;
+  color: black;
+  bottom: 0;
+  text-align: left;
+  font-size: 16px;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  padding: 10px 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    margin: 16px;
+  }
+  .bottom-text {
+    font-size: 8px;
+  }
+}
