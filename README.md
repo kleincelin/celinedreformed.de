@@ -1,3 +1,6 @@
 # celinedreformed.de
 
-hi this is celin, this is my own website, hosted by github cuz im broke lol. visit it pls https://celinedreformed.de and also i coded https://lcd-records.com with a friend check us out too, bomb label
+This is the official website for the artist Celined, currently signed under LCD Records.
+Website coded by me, visit here: https://celinedreformed.de
+
+I also coded the site for LCD Records with Aegir (i.luv.werewolves): https://lcd-records.com
