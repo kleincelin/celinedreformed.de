@@ -4,7 +4,7 @@
 }
 
 body {
-  color: #59d24e;
+  color: #35f160;
   background-color: black;
   margin: 64px;
   font-family: Win3;
@@ -12,7 +12,7 @@ body {
 }
 
 a:link, a:active, a:visited {
-  color: #59d24e;
+  color: #35f160;
   text-decoration: none;
 }
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 
 .text {
       display: inline;
-      background-color: #59d24e;
+      background-color: #35f160;
       color: black;
       padding: 5px;
 }
@@ -42,7 +42,7 @@ a .text {
 }
 .bottom-text {
   position: fixed;
-  background-color: #59d24e;
+  background-color: #35f160;
   color: black;
   bottom: 0;
   text-align: left;
