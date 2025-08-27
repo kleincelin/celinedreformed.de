@@ -16,7 +16,7 @@ a:link, a:active, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: green;
+  color: #35f160;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ a .text {
       color: black;
 }
 .text a:hover {
-      color: green;
+      color: #35f160;
 }
 .bottom-text {
   position: fixed;
