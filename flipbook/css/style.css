@@ -1,6 +1,6 @@
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	background-color:black;
 	margin:0;
 	padding:0;
 }
@@ -18,7 +18,7 @@ body{
 }
 
 .magazine-viewport .page{
-	background-color:white;
+	background-color:black;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
@@ -30,7 +30,7 @@ body{
 .magazine .region{
 	position:absolute;
 	overflow:hidden;
-	background:#FFFFFF;  /*#0066FF;*/
+	background:black;  /*#0066FF;*/
 	opacity:0; /*0.2;*/
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
