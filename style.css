@@ -92,6 +92,13 @@ h1, p {
     cursor: url("glasspointer.cur"), auto;
 }
 
+#listen-link {
+  color:rgb(247, 75, 23);
+}
+#listen-link:hover {
+  color:rgb(255, 136, 99);
+}
+
 /* PARALLAX */
 body, html {
   height: 100%;
