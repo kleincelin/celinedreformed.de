@@ -64,7 +64,7 @@ h1, p {
 
 /* IDS */
 #topbutton {
-    cursor: pointer;
+    cursor: url("glasspointer.cur"), auto;
     transition: 0.3s;
 }
 #topbutton:hover {
