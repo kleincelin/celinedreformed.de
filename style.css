@@ -152,4 +152,9 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+  #latestrelease {
+    width:80%;
+    height: auto;
+    margin: 8px;
+}
 }
