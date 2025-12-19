@@ -127,7 +127,7 @@ p {
 }
   .parallax {
   height: 100%; 
-  background-attachment: relative;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
