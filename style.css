@@ -4,6 +4,14 @@
 }
 
 /* GENERAL */
+* {
+  cursor: url("glasscursor.cur"), auto;
+}
+
+a {
+  cursor: url("glasspointer.cur"), auto;
+}
+
 body {
   color: black;
   background-color: white;
