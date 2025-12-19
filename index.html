@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CELINED / HOME</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta content="CELINED / HOME" property="og:title">
     <meta content="OFFICIAL WEBSITE FOR CELINED REFORMED" property="og:description">
@@ -13,33 +12,80 @@
     <meta property="twitter:card" content="summary_large_image">
   </head>
   <body>
-  <div class="text"><a href="https://celinedreformed.de">HOME</a>/<a href="releases">RELEASES</a>/<a href="news">NEWS</a>/<a href="mailto:celinedreformed@gmail.com">CONTACT</a>/<a href="about">ABOUT</a></div>
- <br><br>
- The official website for Celined.
- <br>Artist signed to LCD Records
- <br><br>
- PORTFOLIOS:
-    <br>
-    <a href="https://heyzine.com/flip-book/b90cb38e68.html">Photography Portfolio</a>
-    <br>
-    <a href="https://heyzine.com/flip-book/742917c5cc.html">Latest Portfolio: UE9SUkVUVEk=</a>
-    <br><br>
- LINKS:
-  <br>
- <a href="https://linktr.ee/celinedreformed">Linktree</a>
-  <br>
- <a href="https://elasticstage.com/celinedreformed">Shop</a>
-  <br>
- <a href="https://www.instagram.com/celinedreformed">Instagram</a>
-  <br>
- <a href="https://celinedreformed.bandcamp.com/">Bandcamp</a>
-  <br>
- <a href="https://open.spotify.com/artist/3UYFgXjRHhQVktN3pHzWgJ">Spotify</a>
-  <br>
- <a href="https://music.apple.com/gb/artist/celined/1755996676">Apple Music</a>
-  <br>
-  <div class="bottom-text">
-© 2025 Celin Aubele under exclusive license to LCD Records, founded by Eklectika in Italy, March 25th 2025
-  </div>
+
+<div class="menu-bar">
+<a href="index.html" style="color:rgb(247, 75, 23)">Home</a>
+/
+<a href="releases.html">Releases</a>
+/
+<a href="https://heyzine.com/flip-book/b90cb38e68.html">Portfolio</a>
+/
+<a href="mailto:celinedreformed@gmail.com">Contact</a>
+/
+<a href="about.html">About</a>
+</div>
+
+<div class="parallax bg0"></div>
+
+<div class="parallaxtext" style="text-align: center;">
+  <h1>The official website for Celined.<br>Artist signed to <a href="https://lcd-records.com">LCD Records</a></h1>
+</div>
+
+<div class="parallax bg1"></div>
+
+<div class="parallaxtext" style="text-align:center">
+    <h1>Latest Release</h1>
+    <p>Original Patchworks, Vol. 1<br><a href="https://share.amuse.io/album/celined-original-patchworks-vol-1-1/">Listen here</a></p>
+</div>
+
+<div class="parallax bg2"></div>
+
+<div class="parallaxtext" style="text-align:center">
+    <h1>Links</h1>
+    <p>
+    <a href="https://linktr.ee/celinedreformed">Linktree</a><br>
+    <a href="https://elasticstage.com/celinedreformed">Shop</a><br>
+    <a href="https://www.instagram.com/celinedreformed">Instagram</a><br>
+    <a href="https://celinedreformed.bandcamp.com/">Bandcamp</a><br>
+    <a href="https://open.spotify.com/artist/3UYFgXjRHhQVktN3pHzWgJ">Spotify</a><br>
+    <a href="https://music.apple.com/gb/artist/celined/1755996676">Apple Music</a><br>
+</div>
+
+<div class="parallax bg3"></div>
+
+<div class="parallaxtext" style="text-align:center;height:10%">
+ <p id="topbutton">Back up</p>
+</div>
+
+<div class="bottom-text">
+   <b> © 2025 Celin Aubele under exclusive license to <a href="https://lcd-records.com">LCD Records</a>, founded by Celeste in Italy, March 25th 2025</b>
+</div>
+
+<script> /* Back Up Button */
+function scrollToTop(duration = 1000) {
+  const start = window.pageYOffset;
+  const startTime = performance.now();
+
+  function scrollStep(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const easeInOut = progress < 0.5
+      ? 2 * progress * progress
+      : -1 + (4 - 2 * progress) * progress;
+
+    window.scrollTo(0, start * (1 - easeInOut));
+
+    if (progress < 1) {
+      requestAnimationFrame(scrollStep);
+    }
+  }
+
+  requestAnimationFrame(scrollStep);
+}
+
+document.getElementById('topbutton').addEventListener('click', () => {
+  scrollToTop(1000);
+});
+</script>
   </body>
 </html>
