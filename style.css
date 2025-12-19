@@ -70,6 +70,7 @@ h1, p {
 #topbutton:hover {
     color: rgb(138, 138, 138);
 }
+
 #latestrelease {
     width:320px;
     height: 320px;
@@ -80,6 +81,14 @@ h1, p {
 #latestrelease:hover {
     transform: scale(1.05);
     transition: 1s ease;
+    cursor: url("glasspointer.cur"), auto;
+}
+
+#lcd {
+    color: #006eff;
+}
+#lcd:hover {
+    color: #95e1fa;
     cursor: url("glasspointer.cur"), auto;
 }
 
