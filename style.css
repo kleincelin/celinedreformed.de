@@ -1,48 +1,45 @@
 @font-face {
-  font-family: Win3;
-  src: url(win3.otf);
+  font-family: HelveNeue;
+  src: url(../portfolio/HelveticaNeueUltraLight.otf);
 }
 
+/* GENERAL */
 body {
-  color: #35f160;
-  background-color: black;
-  margin: 64px;
-  font-family: Win3;
+  color: black;
+  background-color: white;
+  margin: 0;
+  font-family: HelveNeue;
   font-size: 30px;
 }
 
 a:link, a:active, a:visited {
-  color: #35f160;
+  color: black;
   text-decoration: none;
+  transition: 0.3s;
 }
 a:hover {
-  color: green;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s ease-out;
+  color: rgb(138, 138, 138);
 }
 
-.text {
-      display: inline;
-      background-color: #35f160;
-      color: black;
-      padding: 5px;
+h1, p {
+    margin: 5px;
 }
-body .text {
-  color: black;
-}
-a .text {
-  color: black
-}
-.text a:link,
-.text a:visited,
-.text a:active {
-      color: black;
-}
-.text a:hover {
-      color: green;
+
+/* DIVS */
+.menu-bar {
+    position: fixed;
+    justify-content: center;
+    margin:32px;
+    background-color: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 .bottom-text {
   position: fixed;
-  background-color: #35f160;
+  background-color: white;
   color: black;
   bottom: 0;
   text-align: left;
@@ -57,12 +54,72 @@ a .text {
   word-wrap: break-word;
 }
 
+/* IDS */
+#topbutton {
+    cursor: pointer;
+    transition: 0.3s;
+}
+#topbutton:hover {
+    color: rgb(138, 138, 138);
+}
+
+/* PARALLAX */
+body, html {
+  height: 100%;
+}
+.parallax {
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxtext {
+    height:auto;
+    margin: 32px;
+    background-color:white;
+}
+
+.parallax.bg0 {
+    background-image: url(images/F1.png);
+}
+.parallax.bg1{
+    background-image: url(images/F4.png);
+}
+.parallax.bg2{
+    background-image: url(images/F3.png);
+}
+.parallax.bg3{
+    background-image: url(images/F2.png);
+}
+
+.parallax.rl7 {
+    background-image: url(images/releases/rl7.png);
+}
+.parallax.rl6 {
+    background-image: url(images/releases/rl6.jpg);
+}
+.parallax.rl5 {
+    background-image: url(images/releases/rl5.png);
+}
+.parallax.rl4 {
+    background-image: url(images/releases/rl4.png);
+}
+.parallax.rl3 {
+    background-image: url(images/releases/rl3.png);
+}
+.parallax.rl2 {
+    background-image: url(images/releases/rl2.jpg);
+}
+.parallax.rl1 {
+    background-image: url(images/releases/rl1.png);
+}
 @media only screen and (max-width: 768px) {
-  body {
-    font-size: 16px;
-    margin: 16px;
-  }
-  .bottom-text {
-    font-size: 8px;
-  }
+h1 {
+    font-size:32px;
+}
+p {
+    font-size:25px;
+}
 }
