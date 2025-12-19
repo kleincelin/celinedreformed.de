@@ -21,7 +21,7 @@ body {
 }
 
 a:link, a:active, a:visited {
-  color: black;
+  color: rgb(247, 75, 23);
   text-decoration: none;
   transition: 0.3s;
 }
@@ -34,10 +34,6 @@ a:hover {
 
 h1, p {
     margin: 5px;
-}
-
-h1 {
-  color: rgb(247, 75, 23);
 }
 
 /* DIVS */
