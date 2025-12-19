@@ -21,7 +21,7 @@ body {
 }
 
 a:link, a:active, a:visited {
-  color: rgb(247, 75, 23);
+  color: black;
   text-decoration: none;
   transition: 0.3s;
 }
