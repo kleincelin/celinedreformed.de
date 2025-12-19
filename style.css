@@ -70,6 +70,18 @@ h1, p {
 #topbutton:hover {
     color: rgb(138, 138, 138);
 }
+#latestrelease {
+    width:320px;
+    height: 320px;
+    border-radius: 16px;
+    transition: 1s ease;
+    margin: 32px;
+}
+#latestrelease:hover {
+    transform: scale(1.05);
+    transition: 1s ease;
+    cursor: url("glasspointer.cur"), auto;
+}
 
 /* PARALLAX */
 body, html {
