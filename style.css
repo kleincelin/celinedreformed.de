@@ -130,6 +130,9 @@ body, html {
     background-image: url(images/F2.webp);
 }
 
+.parallax.rl9 {
+    background-image: url(images/releases/rl9.webp);
+}
 .parallax.rl8 {
     background-image: url(images/releases/rl8.webp);
 }
