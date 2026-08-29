@@ -1,8 +1,5 @@
 # celinedreformed.de
 
-This is the official website for the artist Celined, myself, currently signed under LCD Records.
+This is the official website for the artist Celined, myself.
 
 Website coded by myself, visit here: https://celinedreformed.de
-
-I also coded the site for LCD Records with Aegir (i.luv.werewolves): https://lcd-records.com
-Make sure to also visit their site: https://werewolves.world
