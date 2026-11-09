@@ -44,6 +44,7 @@ h1, p {
     background-color: white;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    z-index: 99999;
 }
 .bottom-text {
   position: fixed;
